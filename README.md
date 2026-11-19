@@ -18,6 +18,16 @@ Testes:
 ./mvnw test
 ```
 
+O dashboard fica em `frontend/`. Com a API no ar, em outro terminal:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+A tela abre em `http://localhost:5173`. O menu lateral separa dashboard, nova entrada, saída e histórico. O tema claro ou escuro fica no rodapé do menu. O Vite encaminha `/ingredientes`, `/compartimentos` e `/historico` para `http://localhost:8080`.
+
 ## Exemplo rápido
 
 ```bash
